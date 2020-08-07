@@ -1,5 +1,5 @@
 import sqlite3
-con = sqlite3.connect('db4.db')
+con = sqlite3.connect('db5.db')
 c = con.cursor()
 
 c.execute('create table student(rollno text primary key,sname text)')
